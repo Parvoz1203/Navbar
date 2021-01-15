@@ -1,0 +1,97 @@
+.nav-liks {
+  margin-left: auto;
+  margin-right: auto; }
+  .nav-liks a {
+    opacity: 0.8;
+    transition: opacity 0.25s linear; }
+    .nav-liks a:hover {
+      opacity: 1; }
+  .nav-liks .active {
+    border-bottom: 2px solid #ffffff;
+    opacity: 1; }
+
+.navbar {
+  background: linear-gradient(90deg, #5e50ad, #73529e) no-repeat;
+  display: flex;
+  align-items: center; }
+  .navbar .menu-block {
+    width: 50%; }
+  .navbar .menu-block {
+    display: flex;
+    align-items: center; }
+    .navbar .menu-block .nav-liks {
+      display: flex; }
+      .navbar .menu-block .nav-liks a {
+        display: block;
+        color: #ffffff;
+        text-decoration: none;
+        padding: 37px 1rem; }
+  .navbar .nav-brand {
+    padding-left: 1rem;
+    cursor: pointer; }
+    .navbar .nav-brand img {
+      border-radius: 50%;
+      height: 85px;
+      width: 100%; }
+  .navbar h6 {
+    font-size: 16px;
+    padding: 0 0.6rem; }
+  .navbar .user-block {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    margin-left: auto; }
+  .navbar .user-block ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    align-items: center; }
+    .navbar .user-block ul img {
+      border: white 3px solid !important; }
+  .navbar .user-avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    padding: 4px;
+    border: 2px solid #ffffff; }
+  .navbar .d-flex {
+    align-items: center;
+    border-radius: 50px !important;
+    width: 50px; }
+  .navbar a {
+    color: #ffffff;
+    text-decoration: none; }
+  .navbar .icon {
+    background-color: #ffffff; }
+
+.border-right {
+  border-right: 10px solid rgba(255, 255, 255, 0.1); }
+
+.user-block {
+  display: block;
+  cursor: all-scroll; }
+  .user-block img {
+    border-radius: 60%;
+    height: 100px;
+    width: 100%; }
+  .user-block h6 {
+    position: inherit; }
+
+.btn-link {
+  background-color: #ffffff;
+  color: #141313 !important;
+  padding: 1rem;
+  border-radius: 15%;
+  margin-left: 4rem !important;
+  font-size: 18px; }
+  .btn-link a {
+    border-radius: 50px; }
+  .btn-link b {
+    display: inline-block;
+    padding: 30px;
+    margin: 30px;
+    border-radius: 50px;
+    background-color: #a2d0f7; }
+
+/*# sourceMappingURL=main.css.map */
